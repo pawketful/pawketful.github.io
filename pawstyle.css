@@ -1,0 +1,111 @@
+body { 
+    
+    background-color:#349aff; 
+
+}
+
+#snow{
+	background: none;
+	background-image: url('images/s1.png'), url('images/s2.png'), url('images/s3.png');
+	height: 100%;
+	left: 0;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	z-index:1;
+	-webkit-animation: snow 20s linear infinite;
+	-moz-animation: snow 20s linear infinite;
+	-ms-animation: snow 20s linear infinite;
+	animation: snow 20s linear infinite;
+}
+@keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-moz-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 400px 1000px, 200px 400px, 100px 300px;}
+}
+@-webkit-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}
+@-ms-keyframes snow {
+  0% {background-position: 0px 0px, 0px 0px, 0px 0px;}
+  50% {background-position: 500px 500px, 100px 200px, -100px 150px;}
+  100% {background-position: 500px 1000px, 200px 400px, -100px 300px;}
+}	
+
+#socialmedia {
+    
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 350px;
+  left: 0;
+  width: 250px;
+  height: 150px;
+    
+}
+
+#pawket {
+    
+    text-align: center;
+    font-size: 30px;
+    color: #ffffff;
+    font-family: 'Raleway', sans-serif;
+    
+}
+
+
+.fa {
+    
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    width: 80px;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    
+    opacity: 0.9;
+    
+}
+
+.fa-instagram {
+    
+    background: #f09433; 
+background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); 
+background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f09433', endColorstr='#bc1888',GradientType=1 );
+    color: white;
+    
+}
+
+.fa-twitter {
+    
+    background:  #55ACEE;
+    color: white;
+
+}
+
+.fa-steam {
+    background:  #000000;
+    color: white;
+
+}
+
+.fa-tumblr {
+    
+    background:  #2c4762;
+    color: white;
+    
+}
